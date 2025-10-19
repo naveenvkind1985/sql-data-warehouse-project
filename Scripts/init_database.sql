@@ -1,4 +1,22 @@
+-- Batch 1: Switch to master
+USE master;
 
+
+-- Batch 2: Create database
+CREATE DATABASE DataWarehouse;
+
+
+-- Batch 3: Switch to new database
+USE DataWarehouse;
+GO
+
+-- Batch 4: Create schema (must be ONLY statement in batch)
+CREATE SCHEMA bronze;
+GO
+CREATE SCHEMA silver;
+GO
+CREATE SCHEMA gold;
+GO
 /*
 =============================================================
 Create Database and Schemas
@@ -41,3 +59,7 @@ GO
 
 CREATE SCHEMA gold;
 GO
+
+
+
+
