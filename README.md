@@ -83,7 +83,11 @@ data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
+<<<<<<< Updated upstream
 ├── documentss/                               # Project documentation and architecture details
+=======
+├── documents/                               # Project documentation and architecture details
+>>>>>>> Stashed changes
 │   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
